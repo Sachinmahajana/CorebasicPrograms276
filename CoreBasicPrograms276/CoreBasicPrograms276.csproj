@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="D:\CsharpBasicprograms\CoreBasicPrograms276\CoreBasicPrograms276\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\CsharpBasicprograms\CoreBasicPrograms276\CoreBasicPrograms276\.editorconfig" />
+  </ItemGroup>
+
 </Project>
