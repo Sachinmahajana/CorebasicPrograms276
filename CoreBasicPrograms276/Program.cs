@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome to Corebasic Programs");
             Console.WriteLine("Please enter any one program");
-            Console.WriteLine("1:EvenOdd\n2:Swapnumber");
+            Console.WriteLine("1:EvenOdd\n2:Swapnumber\n3.Factornumber");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -19,8 +19,13 @@
                     SwapNumber myObj = new SwapNumber();
                     myObj.FindSwapNumber();
                     break;
+                case 3:
+                    Console.WriteLine("Enter the number to find factor");
+                    int n = Convert.ToInt32(Console.ReadLine());
+                    Factornumber.FactorFunction(n);
+                    break;
             }
-
+  
         }
     }
 }
