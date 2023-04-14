@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome to Corebasic Programs");
             Console.WriteLine("Please enter any one program");
-            Console.WriteLine("1:EvenOdd\n2:Swapnumber\n3.Factornumber");
+            Console.WriteLine("1:EvenOdd\n2:Swapnumber\n3.Factornumber\n.4LargestNumber");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -23,6 +23,9 @@
                     Console.WriteLine("Enter the number to find factor");
                     int n = Convert.ToInt32(Console.ReadLine());
                     Factornumber.FactorFunction(n);
+                    break;
+                case 4:
+                    LargeNumber.FindLargerNumber();
                     break;
             }
   
