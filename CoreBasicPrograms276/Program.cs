@@ -7,6 +7,7 @@
             Console.WriteLine("Welcome to Corebasic Programs");
             Console.WriteLine("Please enter any one program");
             Console.WriteLine("1:EvenOdd\n2:Swapnumber\n3.Factornumber\n.4LargestNumber\n.5LeapYear\n6Flipcoin");
+            Console.WriteLine("7:Table2");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -33,6 +34,10 @@
                 case 6:
                     FlipCoin myObj3 = new FlipCoin();
                     myObj3.FindFlipcoinPercentage();
+                    break;
+                case 7:
+                    Table2 table = new Table2();
+                    table.Power2Function();
                     break;
             }
         }
