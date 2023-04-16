@@ -6,8 +6,8 @@
         {
             Console.WriteLine("Welcome to Corebasic Programs");
             Console.WriteLine("Please enter any one program");
-            Console.WriteLine("1:EvenOdd\n2:Swapnumber\n3.Factornumber\n.4LargestNumber\n.5LeapYear\n6Flipcoin");
-            Console.WriteLine("7:Table2");
+            Console.WriteLine("1:EvenOdd\n2:Swapnumber\n3.Factornumber\n4:LargestNumber\n5:LeapYear\n6:Flipcoin");
+            Console.WriteLine("7:Table2\n8:HarmonicNumber");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -38,6 +38,10 @@
                 case 7:
                     Table2 table = new Table2();
                     table.Power2Function();
+                    break;
+                case 8:
+                    HarmonicNumber myObj5 = new HarmonicNumber();
+                    myObj5.HarmonicNumber2();
                     break;
             }
         }
