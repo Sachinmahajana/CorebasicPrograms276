@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome to Corebasic Programs");
             Console.WriteLine("Please enter any one program");
-            Console.WriteLine("1:EvenOdd\n2:Swapnumber\n3.Factornumber\n.4LargestNumber\n.5LeapYear");
+            Console.WriteLine("1:EvenOdd\n2:Swapnumber\n3.Factornumber\n.4LargestNumber\n.5LeapYear\n6Flipcoin");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -29,6 +29,10 @@
                     break;
                 case 5:
                     LeapYear.FindLeapYear();
+                    break;
+                case 6:
+                    FlipCoin myObj3 = new FlipCoin();
+                    myObj3.FindFlipcoinPercentage();
                     break;
             }
         }
