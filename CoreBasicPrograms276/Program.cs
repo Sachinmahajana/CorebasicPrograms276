@@ -7,7 +7,7 @@
             Console.WriteLine("Welcome to Corebasic Programs");
             Console.WriteLine("Please enter any one program");
             Console.WriteLine("1:EvenOdd\n2:Swapnumber\n3.Factornumber\n4:LargestNumber\n5:LeapYear\n6:Flipcoin");
-            Console.WriteLine("7:Table2\n8:HarmonicNumber\n9:VowelOrConstant");
+            Console.WriteLine("7:Table2\n8:HarmonicNumber\n9:VowelOrConstant\n10:QutionDiv");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -46,6 +46,13 @@
                 case 9:
                     Vowelorconstant myObj6 = new Vowelorconstant();
                     myObj6.character();
+                    break;
+                case 10:
+                    QuotionDiv myObj9 = new QuotionDiv();
+                    myObj9.QuotionDivFun();
+                    break;
+                default:
+                    Console.WriteLine("Please select program given below");
                     break;
             }
         }
